@@ -1,0 +1,191 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap'); */
+/* @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&display=swap'); */
+* {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+  text-decoration: none;
+}
+/*Nav-bar section start*/
+.main-bar {
+  background-color: black;
+  border: 5px solid grey;
+  color: aliceblue;
+  border-radius: 20px;
+}
+.main-bar ul {
+  overflow: auto;
+}
+.main-bar ul a {
+  text-decoration: none;
+  color: white;
+}
+.main-bar ul a:hover {
+  font-size: 20px;
+  font-weight: bolder;
+  color: grey;
+  text-shadow: 2rem;
+}
+.main-bar li {
+  float: left;
+
+  /* margin-bottom: 10px;
+  margin-left: 300px; */
+  /* margin: T R B L; */
+  margin: 10px 0px 10px 300px;
+}
+#contact {
+  padding-left: 300px;
+}
+#logo {
+  font-size: larger;
+  text-align: center;
+  justify-content: center;
+}
+/*Nav-bar section end*/
+
+/* About you section start */
+.about {
+  margin: 10px 0px 0px 10px;
+  display: flex;
+
+  border-left: 2px solid black;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.img {
+  height: 500px;
+  width: 500px;
+  /* margin: T R B L; */
+  margin: 90px 10px 0px 140px;
+}
+#myself {
+  padding: 190px 0px 0px 300px;
+  font-size: 13px;
+  font-family: "Titillium Web", sans-serif;
+}
+#name {
+  padding: 1px 0px 0px 300px;
+  font-size: 25px;
+  font-weight: bolder;
+}
+#para {
+  padding: 5px 0px 0px 300px;
+  font-size: 15px;
+}
+ul {
+  display: flex;
+}
+.icons {
+  padding: 10px 0px 0px 320px;
+  font-size: 25px;
+}
+.icons ul a {
+  text-decoration: none;
+  padding-left: 9px;
+  color: black;
+}
+.icons ul a:hover {
+  color: red;
+  text-decoration: underline;
+  font-size: 30px;
+}
+/* About you section ends */
+
+/* What i know section start */
+.know {
+  border-right: 2px solid black;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 20px;
+  margin-bottom: 10px;
+}
+.what {
+  justify-content: left;
+  font-size: 50px;
+  margin-left: 60px;
+  font-weight: bolder;
+  margin-top: 20px;
+}
+.img1 img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 50px;
+}
+
+.img1 {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+.techno {
+  justify-content: left;
+  font-size: 25px;
+  margin-left: 60px;
+  font-weight: bolder;
+  margin-top: 10px;
+}
+.langu {
+  justify-content: right;
+  font-size: 25px;
+  margin-top: 10px;
+  font-weight: bolder;
+  margin-right: 10px;
+  margin-left: 1060px;
+}
+.img2 img {
+  max-width: 100%;
+  max-height: 100%;
+  padding-left: 50px;
+}
+.img2 {
+  height: 80px;
+  width: 80px;
+  display: flex;
+  margin-left: 998px;
+  margin-top: 10px;
+}
+/* What i know section ends */
+
+/* footer start */
+.footer {
+  background-color: rgb(34, 29, 29);
+  display: flex;
+  color: white;
+  height: 30px;
+}
+.copy {
+  font-size: 9px;
+  padding: 10px;
+}
+.love {
+  font-size: 10px;
+  padding: 10px;
+  margin-left: 400px;
+}
+#form {
+  border: 1px transparent black;
+  border-radius: 20px;
+  margin: 4.8px 0px 4.8px 230px;
+  padding-left: 9px;
+}
+.btn {
+  font-size: 12px;
+  cursor: pointer;
+  margin: 4.8px 0px 4.8px 6px;
+  padding-left: 10px;
+  border: none;
+  border-radius: 20px;
+  padding-right: 10px;
+}
+.btn:hover {
+  background-color: rgb(99, 99, 218);
+  color: white;
+}
+/* footer ends */
